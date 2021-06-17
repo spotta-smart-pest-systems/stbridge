@@ -5,7 +5,7 @@ ext = Extension(
     'stbridge',
     sources=['stbridge.cpp', 'libs/src/bridge/bridge.cpp', 'libs/src/common/criticalsectionlock.cpp',
     	'libs/src/common/stlink_device.cpp', 'libs/src/common/stlink_interface.cpp', 'libs/src/error/ErrLog.cpp'],
-    libraries=['boost_python39'],
+    libraries=['boost_python38'],
     extra_compile_args=['-std=c++17', '-Ilibs/src/bridge', '-Ilibs/src/common', '-Ilibs/src/error'],
     extra_link_args=['-L.', '-lusb-1.0', '-lfmt']
 )

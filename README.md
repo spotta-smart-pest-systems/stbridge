@@ -28,7 +28,7 @@ Install dependencies
 	# Linux
 	sudo apt install libboost-python-dev
 	sudo apt install libfmt-dev
-	sudo apt install libusb1.0-0-dev
+	sudo apt install libusb-1.0-0-dev
 
 Run make
 
