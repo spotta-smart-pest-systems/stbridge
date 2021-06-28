@@ -13,4 +13,7 @@ ext = Extension(
 setup(
     name='stbridge',
     version='0.1',
-    ext_modules=[ext])
+    ext_modules=[ext],
+    packages=['mypkg'],
+    package_dir={'mypkg': 'src/mypkg'}
+    )
