@@ -2,7 +2,7 @@ from distutils.core import setup
 from distutils.extension import Extension
 
 ext = Extension(
-    'stbridge',
+    'mydir/stbridge',
     sources=['stbridge.cpp', 'libs/src/bridge/bridge.cpp', 'libs/src/common/criticalsectionlock.cpp',
     	'libs/src/common/stlink_device.cpp', 'libs/src/common/stlink_interface.cpp', 'libs/src/error/ErrLog.cpp'],
     libraries=['boost_python38'],
