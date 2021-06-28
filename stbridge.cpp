@@ -1,6 +1,6 @@
 #include "stbridge.h"
 
-namespace stbridge_api {
+namespace stbridge {
 
 Brg* m_pBrg = NULL;
 STLinkInterface *m_pStlinkIf = NULL;
