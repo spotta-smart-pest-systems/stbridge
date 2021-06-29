@@ -3,4 +3,4 @@ all:
 
 clean:
 	rm -rf build
-	rm stbridge.*.so
+	rm stbridge_api.*.so
