@@ -12,7 +12,7 @@ ext = Extension(
 
 setup(
     name='stbridge',
-    version='0.1',
+    version='0.2',
     ext_modules=[ext],
     packages=['stbridge'],
     package_dir={'stbridge': 'stbridge'}

@@ -3,8 +3,6 @@ import stbridge_api as api
 
 class STBridge:
     def __init__(self, i2c_speed=100):
-        # api.open()
-        # api.initI2C(i2c_speed)
         self.open()
         api.initI2C(i2c_speed)
 
@@ -13,6 +11,9 @@ class STBridge:
 
     def close(self):
         api.close()
+
+    def target_voltage(self):
+        return api.getTargetVoltage()
 
     def read_i2c(self, slave_addr, num_bytes):
         return api.readI2C(slave_addr, num_bytes)
