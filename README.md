@@ -16,7 +16,7 @@ Python wrapper for STLINK-V3-BRIDGE. Tested on MacOS and Linux. Uses libusb for 
 
 Make sure to clone with submodules
 
-	git clone --recursive git@github.com:spotta-smart-pest-systems/stbridge.git
+	git clone --recursive https://github.com/spotta-smart-pest-systems/stbridge.git
 
 Install dependencies
 
